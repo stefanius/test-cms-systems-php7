@@ -1,0 +1,18 @@
+---
+ip: "192.168.10.10"
+memory: 2024
+cpus: 2
+provider: virtualbox
+
+folders:
+    - map: ./
+      to: /home/vagrant
+
+sites:
+    - map: drupal7.dev
+      to: /home/vagrant/drupal7
+
+databases:
+    - drupal7
+    - drupal8
+    - wordpress
