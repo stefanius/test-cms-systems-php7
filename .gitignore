@@ -2,6 +2,7 @@
 ### Laravel template
 vendor/
 .vagrant
+.cache
 node_modules/
 
 # Laravel 4 specific

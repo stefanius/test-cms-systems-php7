@@ -11,7 +11,8 @@ folders:
 sites:
     - map: drupal7.dev
       to: /home/vagrant/drupal7
-
+    - map: wordpress.dev
+      to: /home/vagrant/wordpress
 databases:
     - drupal7
     - drupal8
